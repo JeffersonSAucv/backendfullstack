@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aBL7eiE75KJhTVNnj0azOuHQjDxmOnWgu85IwWX5ifcAL9apkxRMTDzDJH7cf8OS3gEnb5f0at9n+GoYqF6mPw==",
+  "dgSpecHash": "ILQ0p+ZLD9x5X7C4YakQbfB/dYaXwJLcZ6tXz9B/AlYADi+Rp9tyFd/Qi1yNpVdLYUQBQ84PSLND7xL72hkjVw==",
   "success": true,
-  "projectFilePath": "D:\\JSANTOS\\CURSO FULL STACK\\API\\M1FULLNET160323\\Demo\\SolutionCleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+  "projectFilePath": "D:\\JSANTOS\\Escritorio\\backend\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JSANTOS\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\JSANTOS\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

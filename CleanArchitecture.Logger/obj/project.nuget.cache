@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Js7oF/7BVPbI+G24Fb4xOAya/RWuZjkuFoPnGh4DwKb5O7T+r0FI14CgkBw06AFFf64TmEIDrTlmx0ALawpYvQ==",
+  "dgSpecHash": "p0kZ9DZJcPRDrClJ+BPr5hZ/isWOmLRyruAD9vlF0LK86xjuSmOtaCHn+6cljHU7L2IinHtXb7r5eSy8IPhbUQ==",
   "success": true,
-  "projectFilePath": "D:\\JSANTOS\\CURSO FULL STACK\\API\\M1FULLNET160323\\Demo\\SolutionCleanArchitecture\\CleanArchitecture.Logger\\CleanArchitecture.Logger.csproj",
+  "projectFilePath": "D:\\JSANTOS\\Escritorio\\backend\\CleanArchitecture.Logger\\CleanArchitecture.Logger.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JSANTOS\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\JSANTOS\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
