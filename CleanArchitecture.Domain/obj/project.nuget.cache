@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1/K6EyMDYpTmiQgj2l/GUbUzdiS+kebwz5BEfQMK9ieQtvz4271NzXcvpPVQoqwmVvrc1m0/Fqp2h0jbUdQ2fA==",
+  "success": true,
+  "projectFilePath": "D:\\JSANTOS\\CURSO FULL STACK\\API\\M1FULLNET160323\\Demo\\SolutionCleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JSANTOS\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.5\\microsoft.windowsdesktop.app.ref.7.0.5.nupkg.sha512",
+    "C:\\Users\\JSANTOS\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.5\\microsoft.netcore.app.ref.7.0.5.nupkg.sha512",
+    "C:\\Users\\JSANTOS\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.5\\microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
