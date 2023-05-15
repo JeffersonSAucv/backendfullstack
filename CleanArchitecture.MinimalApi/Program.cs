@@ -60,7 +60,7 @@ app.UseCors(myAllowSpecificOrigins);
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseHttpsRedirection();
-app.MapCompra(logApi);
+app.MapTrabajador(logApi);
 app.MapUsers(configuration, logApi);
 app.Run();
 

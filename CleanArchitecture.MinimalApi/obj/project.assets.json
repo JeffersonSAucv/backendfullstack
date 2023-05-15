@@ -3814,23 +3814,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JSANTOS\\.nuget\\packages\\": {},
+    "C:\\Users\\ANTONY TELLO\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\JSANTOS\\Escritorio\\backend\\CleanArchitecture.MinimalApi\\CleanArchitecture.MinimalApi.csproj",
+      "projectUniqueName": "C:\\CURSO\\PROYECTO\\backendfullstack\\CleanArchitecture.MinimalApi\\CleanArchitecture.MinimalApi.csproj",
       "projectName": "CleanArchitecture.MinimalApi",
-      "projectPath": "D:\\JSANTOS\\Escritorio\\backend\\CleanArchitecture.MinimalApi\\CleanArchitecture.MinimalApi.csproj",
-      "packagesPath": "C:\\Users\\JSANTOS\\.nuget\\packages\\",
-      "outputPath": "D:\\JSANTOS\\Escritorio\\backend\\CleanArchitecture.MinimalApi\\obj\\",
+      "projectPath": "C:\\CURSO\\PROYECTO\\backendfullstack\\CleanArchitecture.MinimalApi\\CleanArchitecture.MinimalApi.csproj",
+      "packagesPath": "C:\\Users\\ANTONY TELLO\\.nuget\\packages\\",
+      "outputPath": "C:\\CURSO\\PROYECTO\\backendfullstack\\CleanArchitecture.MinimalApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\JSANTOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ANTONY TELLO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3845,11 +3845,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\JSANTOS\\Escritorio\\backend\\CleanArchitecture.Infraestructure.Data\\CleanArchitecture.Infraestructure.Data.csproj": {
-              "projectPath": "D:\\JSANTOS\\Escritorio\\backend\\CleanArchitecture.Infraestructure.Data\\CleanArchitecture.Infraestructure.Data.csproj"
+            "C:\\CURSO\\PROYECTO\\backendfullstack\\CleanArchitecture.Infraestructure.Data\\CleanArchitecture.Infraestructure.Data.csproj": {
+              "projectPath": "C:\\CURSO\\PROYECTO\\backendfullstack\\CleanArchitecture.Infraestructure.Data\\CleanArchitecture.Infraestructure.Data.csproj"
             },
-            "D:\\JSANTOS\\Escritorio\\backend\\CleanArchitecture.Infraestructure.IoC\\CleanArchitecture.Infraestructure.IoC.csproj": {
-              "projectPath": "D:\\JSANTOS\\Escritorio\\backend\\CleanArchitecture.Infraestructure.IoC\\CleanArchitecture.Infraestructure.IoC.csproj"
+            "C:\\CURSO\\PROYECTO\\backendfullstack\\CleanArchitecture.Infraestructure.IoC\\CleanArchitecture.Infraestructure.IoC.csproj": {
+              "projectPath": "C:\\CURSO\\PROYECTO\\backendfullstack\\CleanArchitecture.Infraestructure.IoC\\CleanArchitecture.Infraestructure.IoC.csproj"
             }
           }
         }
@@ -3892,24 +3892,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.5, 7.0.5]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[7.0.5, 7.0.5]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.5, 7.0.5]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[7.0.5, 7.0.5]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -3918,7 +3900,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

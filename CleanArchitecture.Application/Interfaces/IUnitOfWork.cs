@@ -16,5 +16,6 @@ namespace CleanArchitecture.Application.Interfaces
         IDbContextTransaction BeginTransaction();
 
         IDetalleCompraServices detalleCompraServices { get; }
+        ITrabajadorServices trabajadorServices { get; }
     }
 }

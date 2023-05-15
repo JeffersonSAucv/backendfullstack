@@ -146,3 +146,20 @@ D:\JSANTOS\CURSO FULL STACK\API\M1FULLNET160323\Demo\SolutionCleanArchitecture\C
 D:\JSANTOS\CURSO FULL STACK\API\M1FULLNET160323\Demo\SolutionCleanArchitecture\CleanArchitecture.Application\obj\Debug\net7.0\refint\CleanArchitecture.Application.dll
 D:\JSANTOS\CURSO FULL STACK\API\M1FULLNET160323\Demo\SolutionCleanArchitecture\CleanArchitecture.Application\obj\Debug\net7.0\CleanArchitecture.Application.pdb
 D:\JSANTOS\CURSO FULL STACK\API\M1FULLNET160323\Demo\SolutionCleanArchitecture\CleanArchitecture.Application\obj\Debug\net7.0\ref\CleanArchitecture.Application.dll
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Application\bin\Debug\net7.0\CleanArchitecture.Application.deps.json
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Application\bin\Debug\net7.0\CleanArchitecture.Application.dll
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Application\bin\Debug\net7.0\CleanArchitecture.Application.pdb
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Application\bin\Debug\net7.0\CleanArchitecture.Domain.dll
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Application\bin\Debug\net7.0\CleanArchitecture.Infraestructure.Data.dll
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Application\bin\Debug\net7.0\CleanArchitecture.Domain.pdb
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Application\bin\Debug\net7.0\CleanArchitecture.Infraestructure.Data.pdb
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Application\obj\Debug\net7.0\CleanArchitecture.Application.csproj.AssemblyReference.cache
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Application\obj\Debug\net7.0\CleanArchitecture.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Application\obj\Debug\net7.0\CleanArchitecture.Application.AssemblyInfoInputs.cache
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Application\obj\Debug\net7.0\CleanArchitecture.Application.AssemblyInfo.cs
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Application\obj\Debug\net7.0\CleanArchitecture.Application.csproj.CoreCompileInputs.cache
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Application\obj\Debug\net7.0\CleanArchitecture.Application.csproj.CopyComplete
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Application\obj\Debug\net7.0\CleanArchitecture.Application.dll
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Application\obj\Debug\net7.0\refint\CleanArchitecture.Application.dll
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Application\obj\Debug\net7.0\CleanArchitecture.Application.pdb
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Application\obj\Debug\net7.0\ref\CleanArchitecture.Application.dll

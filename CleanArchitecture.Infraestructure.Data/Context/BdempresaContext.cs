@@ -19,17 +19,15 @@ public partial class BdempresaContext : DbContext
 
     public virtual DbSet<DetalleCompra> DetalleCompras { get; set; }
 
-    public virtual DbSet<Historial> Historials { get; set; }
+    public virtual DbSet<RegistroMarcacion> RegistroMarcacions { get; set; }
 
-    public virtual DbSet<Paciente> Pacientes { get; set; }
-
-    public virtual DbSet<Product> Products { get; set; }
+    public virtual DbSet<Trabajador> Trabajadors { get; set; }
 
     public virtual DbSet<User> Users { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("data source=JSANTOS;initial catalog=BDEmpresa;user id=sa;password=123456;Trust Server Certificate=true");
+        => optionsBuilder.UseSqlServer("data source=ATELLO\\ATELLO;initial catalog=BDEmpresa;user id=sa;password=012806;Trust Server Certificate=true");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -61,76 +59,78 @@ public partial class BdempresaContext : DbContext
                 .HasConstraintName("FK_IdVenta");
         });
 
-        modelBuilder.Entity<Historial>(entity =>
+        modelBuilder.Entity<RegistroMarcacion>(entity =>
         {
-            entity.HasKey(e => e.IHistorialId).HasName("PK__Historia__3828AAFCA46050D5");
+            entity.HasKey(e => e.IRegistroMarcacion).HasName("PK__Registro__2776ED975BE2A8AD");
 
-            entity.ToTable("Historial");
+            entity.ToTable("RegistroMarcacion");
 
-            entity.Property(e => e.IHistorialId).HasColumnName("i_historial_id");
-            entity.Property(e => e.DtFecha)
-                .HasMaxLength(8)
-                .IsUnicode(false)
-                .HasColumnName("dt_fecha");
-            entity.Property(e => e.IPacienteId).HasColumnName("i_paciente_id");
-            entity.Property(e => e.VcArea)
+            entity.Property(e => e.IRegistroMarcacion).HasColumnName("i_registro_marcacion");
+            entity.Property(e => e.DtFechaHoraMarcacion)
+                .HasColumnType("datetime")
+                .HasColumnName("dt_fecha_hora_marcacion");
+            entity.Property(e => e.DtFechaRegistro)
+                .HasColumnType("date")
+                .HasColumnName("dt_fecha_registro");
+            entity.Property(e => e.IIngresoSalida).HasColumnName("i_ingreso_salida");
+            entity.Property(e => e.ITrabajadorId).HasColumnName("i_trabajador_id");
+        });
+
+        modelBuilder.Entity<Trabajador>(entity =>
+        {
+            entity.HasKey(e => e.ITrabajadorId).HasName("PK__Trabajad__2A55D555B1DE16FF");
+
+            entity.ToTable("Trabajador");
+
+            entity.Property(e => e.ITrabajadorId).HasColumnName("i_trabajador_id");
+            entity.Property(e => e.DtFechaIngreso)
+                .HasColumnType("date")
+                .HasColumnName("dt_fecha_ingreso");
+            entity.Property(e => e.DtFechaNacimiento)
+                .HasColumnType("date")
+                .HasColumnName("dt_fecha_nacimiento");
+            entity.Property(e => e.VcApellidoMaterno)
                 .HasMaxLength(50)
                 .IsUnicode(false)
-                .HasColumnName("vc_area");
-            entity.Property(e => e.VcDescripcion)
+                .HasColumnName("vc_apellido_materno");
+            entity.Property(e => e.VcApellidoPaterno)
+                .HasMaxLength(50)
                 .IsUnicode(false)
-                .HasColumnName("vc_descripcion");
-            entity.Property(e => e.VcHospital)
+                .HasColumnName("vc_apellido_paterno");
+            entity.Property(e => e.VcCorreo)
                 .HasMaxLength(100)
                 .IsUnicode(false)
-                .HasColumnName("vc_hospital");
-            entity.Property(e => e.VcMedico)
+                .HasColumnName("vc_correo");
+            entity.Property(e => e.VcDireccion)
                 .HasMaxLength(100)
                 .IsUnicode(false)
-                .HasColumnName("vc_medico");
-
-            entity.HasOne(d => d.IPaciente).WithMany(p => p.Historials)
-                .HasForeignKey(d => d.IPacienteId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Historial__i_pac__46E78A0C");
-        });
-
-        modelBuilder.Entity<Paciente>(entity =>
-        {
-            entity.HasKey(e => e.IPacienteId).HasName("PK__Paciente__03E0394D53DC1896");
-
-            entity.ToTable("Paciente");
-
-            entity.Property(e => e.IPacienteId).HasColumnName("i_paciente_id");
-            entity.Property(e => e.Edad).HasColumnName("edad");
-            entity.Property(e => e.VcDocumento)
+                .HasColumnName("vc_direccion");
+            entity.Property(e => e.VcDni)
+                .HasMaxLength(10)
+                .IsUnicode(false)
+                .HasColumnName("vc_dni");
+            entity.Property(e => e.VcNombre)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("vc_nombre");
+            entity.Property(e => e.VcProcedencia)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("vc_procedencia");
+            entity.Property(e => e.VcSexo)
+                .HasMaxLength(1)
+                .IsUnicode(false)
+                .IsFixedLength()
+                .HasColumnName("vc_sexo");
+            entity.Property(e => e.VcTelefono)
                 .HasMaxLength(20)
                 .IsUnicode(false)
-                .HasColumnName("vc_documento");
-            entity.Property(e => e.VcNombres)
-                .HasMaxLength(100)
-                .IsUnicode(false)
-                .HasColumnName("vc_nombres");
-        });
-
-        modelBuilder.Entity<Product>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__Product__3214EC075063047B");
-
-            entity.ToTable("Product");
-
-            entity.Property(e => e.Price).HasColumnType("decimal(18, 2)");
-            entity.Property(e => e.ProductName)
-                .HasMaxLength(100)
-                .IsUnicode(false);
-            entity.Property(e => e.ProductType)
-                .HasMaxLength(100)
-                .IsUnicode(false);
+                .HasColumnName("vc_telefono");
         });
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Users__3214EC078F3FDA41");
+            entity.HasKey(e => e.Id).HasName("PK__Users__3214EC07B72BC022");
 
             entity.Property(e => e.Address)
                 .HasMaxLength(200)

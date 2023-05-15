@@ -106,3 +106,15 @@ D:\JSANTOS\CURSO FULL STACK\API\M1FULLNET160323\Demo\SolutionCleanArchitecture\C
 D:\JSANTOS\CURSO FULL STACK\API\M1FULLNET160323\Demo\SolutionCleanArchitecture\CleanArchitecture.Domain\obj\Debug\net7.0\refint\CleanArchitecture.Domain.dll
 D:\JSANTOS\CURSO FULL STACK\API\M1FULLNET160323\Demo\SolutionCleanArchitecture\CleanArchitecture.Domain\obj\Debug\net7.0\CleanArchitecture.Domain.pdb
 D:\JSANTOS\CURSO FULL STACK\API\M1FULLNET160323\Demo\SolutionCleanArchitecture\CleanArchitecture.Domain\obj\Debug\net7.0\ref\CleanArchitecture.Domain.dll
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Domain\bin\Debug\net7.0\CleanArchitecture.Domain.deps.json
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Domain\bin\Debug\net7.0\CleanArchitecture.Domain.dll
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Domain\bin\Debug\net7.0\CleanArchitecture.Domain.pdb
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Domain\obj\Debug\net7.0\CleanArchitecture.Domain.csproj.AssemblyReference.cache
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Domain\obj\Debug\net7.0\CleanArchitecture.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Domain\obj\Debug\net7.0\CleanArchitecture.Domain.AssemblyInfoInputs.cache
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Domain\obj\Debug\net7.0\CleanArchitecture.Domain.AssemblyInfo.cs
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Domain\obj\Debug\net7.0\CleanArchitecture.Domain.csproj.CoreCompileInputs.cache
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Domain\obj\Debug\net7.0\CleanArchitecture.Domain.dll
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Domain\obj\Debug\net7.0\refint\CleanArchitecture.Domain.dll
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Domain\obj\Debug\net7.0\CleanArchitecture.Domain.pdb
+C:\CURSO\PROYECTO\backendfullstack\CleanArchitecture.Domain\obj\Debug\net7.0\ref\CleanArchitecture.Domain.dll

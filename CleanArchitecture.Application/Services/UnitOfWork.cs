@@ -15,6 +15,7 @@ namespace CleanArchitecture.Application.Services
             userServices = new UserServices(connectionString);
             compraServices = new CompraServices(context);
             detalleCompraServices = new DetalleCompraServices(context, connectionString);
+            trabajadorServices = new TrabajadorServices(context, connectionString);
         }
         public ICompraServices compraServices { get; private set; }
         public IUserServices userServices { get; private set; }
@@ -29,5 +30,8 @@ namespace CleanArchitecture.Application.Services
         {
             return _context.Database.BeginTransaction(IsolationLevel.ReadUncommitted);
         }
+        public ITrabajadorServices trabajadorServices { get; private set; }
+
+
     }
 }
