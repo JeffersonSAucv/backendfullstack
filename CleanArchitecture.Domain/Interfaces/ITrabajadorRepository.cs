@@ -1,4 +1,5 @@
-﻿using CleanArchitecture.Domain.Dtos;
+﻿using Agritracer.Application.OutputObjets;
+using CleanArchitecture.Domain.Dtos;
 using CleanArchitecture.Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -13,6 +14,7 @@ namespace CleanArchitecture.Domain.Interfaces
         Task<List<Trabajador>> listaBusquedaTrabajador(string? numeroDocumento);
         Task<int> Insert(Trabajador trabajador);
         Task<List<TrabajadorDto>> ObtenerTrabajador();
+        Task<OutResultData<TrabajadorDto>> CRUD(TrabajadorDto entity);
 
 
         //void UpdateFieldsSave(Compra compra);

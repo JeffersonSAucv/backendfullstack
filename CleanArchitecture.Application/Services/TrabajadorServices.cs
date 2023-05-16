@@ -1,4 +1,5 @@
-﻿using CleanArchitecture.Application.Interfaces;
+﻿using Agritracer.Application.OutputObjets;
+using CleanArchitecture.Application.Interfaces;
 using CleanArchitecture.Domain.Dtos;
 using CleanArchitecture.Domain.Interfaces;
 using CleanArchitecture.Domain.Models;
@@ -27,6 +28,12 @@ namespace CleanArchitecture.Application.Services
         {
             return await _trabajadorRepository.ObtenerTrabajador();
         }
+
+        public async Task<OutResultData<TrabajadorDto>> CRUD(TrabajadorDto entity)
+        {
+            return await this._trabajadorRepository.CRUD(entity);
+        }
+
         //public void UpdateFieldsSave(Compra compra)
         //{
         //    _trabajadorRepository.UpdateFieldsSave(compra);

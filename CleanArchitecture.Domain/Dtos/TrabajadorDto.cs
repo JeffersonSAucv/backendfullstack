@@ -22,6 +22,7 @@ namespace CleanArchitecture.Domain.Dtos
         public string correo { get; set; }
         public string procedencia { get; set; }
         public string fechaIngreso { get; set; }
+        public int accion { get; set; }
 
     }
 }

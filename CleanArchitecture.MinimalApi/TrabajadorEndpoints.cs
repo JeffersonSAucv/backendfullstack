@@ -1,9 +1,11 @@
-﻿using CleanArchitecture.Application.Constants;
+﻿using Blog.MinimalApi.Utils;
+using CleanArchitecture.Application.Constants;
 using CleanArchitecture.Application.Interfaces;
 using CleanArchitecture.Domain.Dtos;
 using CleanArchitecture.Domain.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
 using System.Text.Json;
 
 namespace CleanArchitecture.MinimalApi
@@ -70,6 +72,19 @@ namespace CleanArchitecture.MinimalApi
                 {
                     return Results.BadRequest(ex.Message);
                 }
+            });
+
+            group.MapPost("/Crud", [Authorize] async (TrabajadorDto publish, IUnitOfWork unitOfWork) =>
+            {
+                var output = await unitOfWork.trabajadorServices.CRUD(publish);
+                if (output.statusCode != -1)
+                {
+                    output.statusCode = output.statusCode == 1 ? 200 : 400;
+                    return Results.Ok(output);
+                }
+                else
+                    output.statusCode = output.statusCode == 1 ? 200 : 400;
+                    return Results.BadRequest(output);
             });
 
             //group.MapDelete("/Delete/{id}", [Authorize] async (int id, IUnitOfWork unitOfWork) =>
